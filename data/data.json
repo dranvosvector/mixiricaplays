@@ -2,31 +2,115 @@
   "quests": [
     {
       "id": 1,
-      "name": "The New Frontier Quest",
-      "status": "completed",
-      "percentage": 100,
-      "description": "Uma quest épica para desbravar novas terrass."
+      "name": "A Pirat's Tail",
+      "status": "in_progress",
+      "percentage": 80,
+      "description": "Exotic (OK), Tentugli (OK)... Falta Boss e Jangada"
     },
     {
       "id": 2,
-      "name": "Rashid's Quest",
-      "status": "in_progress",
-      "percentage": 50,
-      "description": "Ajude Rashid a encontrar seus itens perdidos."
+      "name": "Sea of Light",
+      "status": "completed",
+      "percentage": 100,
+      "description": "Ajudar o Speculus. Necessária para outras quests. "
     },
     {
       "id": 3,
-      "name": "Postman Quest",
-      "status": "not_started",
-      "percentage": 0,
-      "description": "Torne-se um carteiro em Venore."
+      "name": "Shadows of Yalahar",
+      "status": "completed",
+      "percentage": 100,
+      "description": "Ufa. Agora só bater nos Gnarhound"
     },
     {
       "id": 4,
-      "name": "Teste de Quest",
+      "name": "The Ape City",
+      "status": "completed",
+      "percentage": 100,
+      "description": "You successfully destroyed the monument of the snake god"
+    },
+    {
+      "id": 5,
+      "name": "The New Frontier",
+      "status": "completed",
+      "percentage": 100,
+      "description": "Entregue 6 tomos"
+    },
+    {
+      "id": 6,
+      "name": "Bigfoot's Burden",
+      "status": "in_progress",
+      "percentage": 80,
+      "description": "WZI, II e III (OK)"
+    },
+    {
+      "id": 7,
+      "name": "In Service Of Yalahar",
+      "status": "in_progress",
+      "percentage": 80,
+      "description": "Falta Missão 10: Batalha Final"
+    },
+    {
+      "id": 8,
+      "name": "Grimvale",
       "status": "not_started",
       "percentage": 0,
-      "description": "Descrição da nova quest"
+      "description": "The Curse of Full Moon"
+    },
+    {
+      "id": 9,
+      "name": "Secret Service",
+      "status": "completed",
+      "percentage": 100,
+      "description": "You are a top agente of TBI"
+    },
+    {
+      "id": 10,
+      "name": "Dreams Courts",
+      "status": "in_progress",
+      "percentage": 5,
+      "description": "Feito acesso Gazer"
+    },
+    {
+      "id": 11,
+      "name": "The Explorer Society",
+      "status": "in_progress",
+      "percentage": 5,
+      "description": "Apenas entramos para poder acessar Yalahar"
+    },
+    {
+      "id": 12,
+      "name": "The Ice Islands",
+      "status": "in_progress",
+      "percentage": 60,
+      "description": "Pegamos missão 5 (Cure The Dogs)"
+    },
+    {
+      "id": 13,
+      "name": "The Inquisition",
+      "status": "in_progress",
+      "percentage": 80,
+      "description": "Missão 7: The Shadow Nexus"
+    },
+    {
+      "id": 14,
+      "name": "The Shattered Isles",
+      "status": "in_progress",
+      "percentage": 60,
+      "description": "Goroma, Laguna, Meriana (OK)"
+    },
+    {
+      "id": 15,
+      "name": "The Way of the Monk",
+      "status": "in_progress",
+      "percentage": 75,
+      "description": "8/11 shrines"
+    },
+    {
+      "id": 16,
+      "name": "Threatened Dreams",
+      "status": "in_progress",
+      "percentage": 50,
+      "description": "Acesso Feyrist (OK)"
     }
   ],
   "achievements": [
@@ -34,11 +118,6 @@
       "id": 1,
       "name": "Explorer",
       "description": "Descobriu 100 locais únicos."
-    },
-    {
-      "id": 2,
-      "name": "Monster Hunter",
-      "description": "Derrotou 1000 monstros."
     }
   ],
   "bestiary": [
@@ -48,13 +127,6 @@
       "completed": true,
       "kills": 2500,
       "description": "Um monstro comum encontrado em muitas cavernas."
-    },
-    {
-      "id": 2,
-      "name": "Dragon",
-      "completed": false,
-      "kills": 150,
-      "description": "Uma criatura alada e perigosa."
     }
   ]
 }
