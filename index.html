@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tibia Status Report</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏰 Tibia Status Report</h1>
+            <p>Acompanhe o progresso do seu personagem</p>
+        </header>
+
+        <div class="search-section">
+            <input type="text" id="searchInput" placeholder="Buscar por nome de quest, status ou bestiário...">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="quests">Quests</button>
+                <button class="filter-btn" data-filter="achievements">Achievements</button>
+                <button class="filter-btn" data-filter="bestiary">Bestiário</button>
+            </div>
+        </div>
+
+        <div class="stats-overview">
+            <div class="stat-card">
+                <h3>Quests Completas</h3>
+                <span id="completedQuests">0</span>
+            </div>
+            <div class="stat-card">
+                <h3>Achievements</h3>
+                <span id="totalAchievements">0</span>
+            </div>
+            <div class="stat-card">
+                <h3>Bestiário Completo</h3>
+                <span id="completedBestiary">0</span>
+            </div>
+        </div>
+
+        <div class="content-sections">
+            <section id="quests-section" class="content-section">
+                <h2>📜 Quests</h2>
+                <div id="questsList" class="items-grid"></div>
+            </section>
+
+            <section id="achievements-section" class="content-section">
+                <h2>🏆 Achievements</h2>
+                <div id="achievementsList" class="items-grid"></div>
+            </section>
+
+            <section id="bestiary-section" class="content-section">
+                <h2>📖 Bestiário</h2>
+                <div id="bestiaryList" class="items-grid"></div>
+            </section>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+

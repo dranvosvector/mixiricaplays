@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tibia Status Report - Administração</title>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🛠️ Administração - Tibia Status Report</h1>
+            <div class="header-actions">
+                <a href="index.html" class="btn btn-secondary">← Voltar ao Site</a>
+                <button id="exportBtn" class="btn btn-primary">📥 Exportar JSON</button>
+                <button id="importBtn" class="btn btn-primary">📤 Importar JSON</button>
+                <input type="file" id="importFile" accept=".json" style="display: none;">
+            </div>
+        </header>
+
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="quests">📜 Quests</button>
+            <button class="tab-btn" data-tab="achievements">🏆 Achievements</button>
+            <button class="tab-btn" data-tab="bestiary">📖 Bestiário</button>
+        </div>
+
+        <!-- Seção Quests -->
+        <div id="quests-tab" class="tab-content active">
+            <div class="section-header">
+                <h2>Gerenciar Quests</h2>
+                <button class="btn btn-success" onclick="addNewQuest()">+ Nova Quest</button>
+            </div>
+            
+            <div class="table-container">
+                <table id="questsTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome</th>
+                            <th>Status</th>
+                            <th>Progresso (%)</th>
+                            <th>Descrição</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody id="questsTableBody">
+                        <!-- Dados serão inseridos aqui -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Seção Achievements -->
+        <div id="achievements-tab" class="tab-content">
+            <div class="section-header">
+                <h2>Gerenciar Achievements</h2>
+                <button class="btn btn-success" onclick="addNewAchievement()">+ Novo Achievement</button>
+            </div>
+            
+            <div class="table-container">
+                <table id="achievementsTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome</th>
+                            <th>Descrição</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody id="achievementsTableBody">
+                        <!-- Dados serão inseridos aqui -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Seção Bestiário -->
+        <div id="bestiary-tab" class="tab-content">
+            <div class="section-header">
+                <h2>Gerenciar Bestiário</h2>
+                <button class="btn btn-success" onclick="addNewBestiary()">+ Nova Criatura</button>
+            </div>
+            
+            <div class="table-container">
+                <table id="bestiaryTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome</th>
+                            <th>Completo</th>
+                            <th>Kills</th>
+                            <th>Descrição</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody id="bestiaryTableBody">
+                        <!-- Dados serão inseridos aqui -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para edição -->
+    <div id="editModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">Editar Item</h3>
+                <span class="close" onclick="closeModal()">&times;</span>
+            </div>
+            <div class="modal-body">
+                <form id="editForm">
+                    <div id="formFields">
+                        <!-- Campos serão inseridos dinamicamente -->
+                    </div>
+                    <div class="form-actions">
+                        <button type="button" class="btn btn-secondary" onclick="closeModal()">Cancelar</button>
+                        <button type="submit" class="btn btn-primary">Salvar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de confirmação -->
+    <div id="confirmModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Confirmar Exclusão</h3>
+                <span class="close" onclick="closeConfirmModal()">&times;</span>
+            </div>
+            <div class="modal-body">
+                <p>Tem certeza que deseja excluir este item?</p>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeConfirmModal()">Cancelar</button>
+                    <button type="button" class="btn btn-danger" onclick="confirmDelete()">Excluir</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/admin.js"></script>
+</body>
+</html>
+

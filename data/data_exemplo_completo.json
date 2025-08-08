@@ -1,0 +1,137 @@
+{
+  "quests": [
+    {
+      "id": 1,
+      "name": "The New Frontier Quest",
+      "status": "completed",
+      "percentage": 100,
+      "description": "Uma quest épica para desbravar novas terrass e descobrir novos territórios."
+    },
+    {
+      "id": 2,
+      "name": "Rashid's Quest",
+      "status": "in_progress",
+      "percentage": 75,
+      "description": "Ajude Rashid a encontrar seus itens perdidos espalhados pelo mundo."
+    },
+    {
+      "id": 3,
+      "name": "Postman Quest",
+      "status": "completed",
+      "percentage": 100,
+      "description": "Torne-se um carteiro em Venore e entregue correspondências."
+    },
+    {
+      "id": 4,
+      "name": "Demon Oak Quest",
+      "status": "in_progress",
+      "percentage": 30,
+      "description": "Enfrente a árvore demoníaca e seus guardiões malignos."
+    },
+    {
+      "id": 5,
+      "name": "Annihilator Quest",
+      "status": "not_started",
+      "percentage": 0,
+      "description": "Uma das quests mais desafiadoras do Tibia para jogadores experientes."
+    },
+    {
+      "id": 6,
+      "name": "Isle of the Kings Quest",
+      "status": "completed",
+      "percentage": 100,
+      "description": "Explore a misteriosa ilha dos reis e desvende seus segredos."
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1,
+      "name": "Explorer",
+      "description": "Descobriu 100 locais únicos no mundo de Tibia."
+    },
+    {
+      "id": 2,
+      "name": "Monster Hunter",
+      "description": "Derrotou 1000 monstros diferentes em combate."
+    },
+    {
+      "id": 3,
+      "name": "Treasure Hunter",
+      "description": "Encontrou 50 tesouros escondidos pelo mundo."
+    },
+    {
+      "id": 4,
+      "name": "Master Sorcerer",
+      "description": "Alcançou o nível 100 como Sorcerer."
+    },
+    {
+      "id": 5,
+      "name": "Dragon Slayer",
+      "description": "Derrotou 500 dragões em combate."
+    },
+    {
+      "id": 6,
+      "name": "Demon Hunter",
+      "description": "Eliminou 100 demônios das trevas."
+    }
+  ],
+  "bestiary": [
+    {
+      "id": 1,
+      "name": "Cyclops",
+      "completed": true,
+      "kills": 2500,
+      "description": "Um monstro comum encontrado em muitas cavernas pelo mundo."
+    },
+    {
+      "id": 2,
+      "name": "Dragon",
+      "completed": false,
+      "kills": 150,
+      "description": "Uma criatura alada e perigosa que cospe fogo."
+    },
+    {
+      "id": 3,
+      "name": "Demon",
+      "completed": true,
+      "kills": 1000,
+      "description": "Criatura das trevas extremamente poderosa e perigosa."
+    },
+    {
+      "id": 4,
+      "name": "Minotaur",
+      "completed": true,
+      "kills": 3000,
+      "description": "Criatura meio humana, meio touro, muito agressiva."
+    },
+    {
+      "id": 5,
+      "name": "Orc",
+      "completed": true,
+      "kills": 5000,
+      "description": "Criatura verde e selvagem que vive em tribos."
+    },
+    {
+      "id": 6,
+      "name": "Troll",
+      "completed": false,
+      "kills": 75,
+      "description": "Criatura grande e forte que regenera vida rapidamente."
+    },
+    {
+      "id": 7,
+      "name": "Skeleton",
+      "completed": true,
+      "kills": 4500,
+      "description": "Morto-vivo reanimado por magia negra."
+    },
+    {
+      "id": 8,
+      "name": "Giant Spider",
+      "completed": false,
+      "kills": 200,
+      "description": "Aranha gigante venenosa encontrada em cavernas escuras."
+    }
+  ]
+}
+
