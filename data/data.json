@@ -123,10 +123,486 @@
   "bestiary": [
     {
       "id": 1,
+      "name": "Quara Mantassin Scout",
+      "completed": true,
+      "kills": 500,
+      "description": "Formorgar Glacier, Malada, Port Hope Surroundings, Talahu, Vandura Quara Caves, Water Elemental Caverns"
+    },
+    {
+      "id": 2,
+      "name": "Pigeon",
+      "completed": true,
+      "kills": 25,
+      "description": "Deeper Drefia, Venore"
+    },
+    {
+      "id": 3,
+      "name": "Duskbringer",
+      "completed": true,
+      "kills": 5,
+      "description": "Aparece no evento The Lightbearer"
+    },
+    {
+      "id": 4,
+      "name": "Herald Of Gloom",
+      "completed": true,
+      "kills": 5,
+      "description": "Aparece no evento The Lightbearer"
+    },
+    {
+      "id": 5,
+      "name": "Dragon",
+      "completed": true,
+      "kills": 1000,
+      "description": "Tudo que é canto tem"
+    },
+    {
+      "id": 6,
+      "name": "Wyrm",
+      "completed": true,
+      "kills": 1000,
+      "description": "Beregar Mines, Drefia Wyrm Caves, Emperor's Castle, Lower Glooth Factory West, Lower Spike, Northern Darama Desert, Vandura Mountains, Vandura Wyrm Lairs, Yalahar Arena Quarter"
+    },
+    {
+      "id": 7,
+      "name": "Water Elemental",
+      "completed": true,
+      "kills": 1000,
+      "description": "Banuta, Folda, Krailos Steppe, Malada, Nargor, Port Hope Surroundings, Ramoa, Talahu, Water Elemental Caverns"
+    },
+    {
+      "id": 8,
+      "name": "Ravenous Lava Lurker",
+      "completed": true,
+      "kills": 1000,
+      "description": "Gnome Deep Hub"
+    },
+    {
+      "id": 9,
       "name": "Cyclops",
       "completed": true,
+      "kills": 500,
+      "description": "Cyclopolis, Femor Hills, Kazordoon Prison, Kazordoon Surroundings, Maze of the Lost Souls, Mistrock, Mount Sternum, Outlaw Camp, Plains of Havoc, Shadowthorn, Thais Northern Dungeon, Thais Surroundings, Thais Underground, Ulderek's Rock, Yalahar Foreigner Quarter"
+    },
+    {
+      "id": 10,
+      "name": "Valkyrie",
+      "completed": true,
+      "kills": 500,
+      "description": "Amazon Camp, Carlin Surroundings, Fields of Glory, Thais Surroundings, Yalahar Foreigner Quarter, Yalahar Trade Quarter"
+    },
+    {
+      "id": 11,
+      "name": "Amazon",
+      "completed": true,
+      "kills": 500,
+      "description": "Amazon Camp, Ankrahmun Pharaoh Tombs, Carlin Surroundings, Corym Black Market, Fields of Glory, Green Claw Swamp, Kazordoon Surroundings, Laguna Islands, Yalahar Factory Quarter, Yalahar Foreigner Quarter, Yalahar Trade Quarter"
+    },
+    {
+      "id": 12,
+      "name": "Assassin",
+      "completed": true,
+      "kills": 500,
+      "description": "Dark Cathedral, Yalahar Factory Quarter, Yalahar Foreigner Quarter, Yalahar Trade Quarter"
+    },
+    {
+      "id": 13,
+      "name": "Dark Monk",
+      "completed": true,
+      "kills": 500,
+      "description": "Dark Cathedral, Vandura Cultist Hideout, Yalahar Foreigner Quarter"
+    },
+    {
+      "id": 14,
+      "name": "Nomad",
+      "completed": true,
+      "kills": 500,
+      "description": "Ankrahmun Pharaoh Tombs, Deeper Drefia, Kha'zeel Mountains, Northern Darama Desert, Southern Darama Desert, Yalahar Foreigner Quarter, Yalahar Trade Quarter"
+    },
+    {
+      "id": 15,
+      "name": "Enlightened Of The Cult",
+      "completed": true,
+      "kills": 1000,
+      "description": "Forbidden Temple, Formorgar Mines, Hellgorge, Yalahar Magician Quarter"
+    },
+    {
+      "id": 16,
+      "name": "Acolyte Of The Cult",
+      "completed": true,
+      "kills": 1000,
+      "description": "Forbidden Temple, Formorgar Mines, Hellgorge, Vandura Cultist Hideout, Yalahar Magician Quarter"
+    },
+    {
+      "id": 17,
+      "name": "Adept Of The Cult",
+      "completed": true,
+      "kills": 1000,
+      "description": "Forbidden Temple, Formorgar Mines, Hellgorge, Vandura Cultist Hideout, Yalahar Magician Quarter"
+    },
+    {
+      "id": 18,
+      "name": "Novice Of The Cult",
+      "completed": true,
+      "kills": 500,
+      "description": "Forbidden Temple, Formorgar Glacier, Formorgar Mines, Vandura Cultist Hideout, Yalahar Magician Quarter"
+    },
+    {
+      "id": 19,
+      "name": "Acolyte Of Darkness",
+      "completed": true,
+      "kills": 5,
+      "description": "Aparece no evento The Lightbearer"
+    },
+    {
+      "id": 20,
+      "name": "Nightslayer",
+      "completed": true,
+      "kills": 5,
+      "description": "Aparece no evento The Lightbearer"
+    },
+    {
+      "id": 21,
+      "name": "Doomsday Cultist",
+      "completed": true,
+      "kills": 5,
+      "description": "Aparece no evento The Lightbearer"
+    },
+    {
+      "id": 22,
+      "name": "Midnight Warrior",
+      "completed": true,
+      "kills": 5,
+      "description": "Aparece no evento The Lightbearer"
+    },
+    {
+      "id": 23,
+      "name": "Bride Of Night",
+      "completed": true,
+      "kills": 5,
+      "description": "Aparece no evento The Lightbearer"
+    },
+    {
+      "id": 24,
+      "name": "Vicious Squire",
+      "completed": true,
+      "kills": 1000,
+      "description": "Descrição da nova criatura"
+    },
+    {
+      "id": 25,
+      "name": "Troll",
+      "completed": true,
+      "kills": 250,
+      "description": "Ab'Dendriel Underground, Carlin Surroundings, Carlin Underground, Edron Troll Den, Elvenbane, Fields of Glory, Folda, Isle of Destiny, Kazordoon Prison, Kazordoon Surroundings, Kazordoon Troll Den, Maze of the Lost Souls, Outlaw Camp, Rookgaard, Rookgaard Underground, Thais Northern Dungeon, Thais Surroundings, Thais Trolls' Cave, Yalahar Arena Quarter, Yalahar Foreigner Quarter"
+    },
+    {
+      "id": 26,
+      "name": "Elf",
+      "completed": true,
+      "kills": 500,
+      "description": "Ab'Dendriel, Ab'Dendriel Surroundings, Ab'Dendriel Underground, Ankrahmun Pharaoh Tombs, Elvenbane, Hellgate, Shadowthorn, Thais Surroundings, Ulderek's Rock, Yalahar Foreigner Quarter, Yalahar Trade Quarter"
+    },
+    {
+      "id": 27,
+      "name": "Elf Arcanist",
+      "completed": true,
+      "kills": 500,
+      "description": "Ab'Dendriel Underground, Cyclopolis, Demona, Edron Northern Ruins, Elvenbane, Shadowthorn, Thais Surroundings, Yalahar Foreigner Quarter"
+    },
+    {
+      "id": 28,
+      "name": "Elf Scout",
+      "completed": true,
+      "kills": 500,
+      "description": "Ab'Dendriel Underground, Cyclopolis, Hellgate, Maze of the Lost Souls, Plains of Havoc, Shadowthorn, Thais Surroundings, Yalahar Foreigner Quarter"
+    },
+    {
+      "id": 29,
+      "name": "Swamp Troll",
+      "completed": true,
+      "kills": 500,
+      "description": "Green Claw Swamp, Kazordoon Surroundings, Port Hope Surroundings, Port Hope Swamp Troll Den, Thais Underground, Venore Southern Swamp, Venore Surroundings, Yalahar Foreigner Quarter"
+    },
+    {
+      "id": 30,
+      "name": "Werewolf",
+      "completed": true,
+      "kills": 1000,
+      "description": "Deeper Ingol, Grimvale, Lycanthrope Grounds, Vengoth"
+    },
+    {
+      "id": 31,
+      "name": "Werebear",
+      "completed": true,
+      "kills": 1000,
+      "description": "Grimvale, Lycanthrope Grounds"
+    },
+    {
+      "id": 32,
+      "name": "Wereboar",
+      "completed": true,
+      "kills": 1000,
+      "description": "Edron Surroundings, Grimvale, Lycanthrope Grounds"
+    },
+    {
+      "id": 33,
+      "name": "Werehyaena",
+      "completed": true,
+      "kills": 1000,
+      "description": "Hyaena Lairs, Kha'zeel Mountains, Northern Darama Desert"
+    },
+    {
+      "id": 34,
+      "name": "Werehyaena Shaman",
+      "completed": true,
+      "kills": 1000,
+      "description": "Hyaena Lairs, Kha'zeel Mountains, Northern Darama Desert"
+    },
+    {
+      "id": 35,
+      "name": "Nightmare Scion",
+      "completed": true,
+      "kills": 1000,
+      "description": "Formorgar Mines, Krailos Ruins, Lower Spike, Underground Isle, Vengoth, Yalahar Alchemist Quarter, Yalahar Arena Quarter, Yalahar Cemetery Quarter"
+    },
+    {
+      "id": 36,
+      "name": "Weakened Frazzlemaw",
+      "completed": true,
+      "kills": 1000,
+      "description": "Feyrist Meadows, Feyrist Underground"
+    },
+    {
+      "id": 37,
+      "name": "Wolf",
+      "completed": true,
+      "kills": 250,
+      "description": "Ab'Dendriel Surroundings, Carlin Surroundings, Dawnport, Dawnport Underground Dungeons e outros"
+    },
+    {
+      "id": 38,
+      "name": "Dog",
+      "completed": true,
+      "kills": 25,
+      "description": "Beregar Mines, Book World, Bounac, Carlin Surroundings, Edron Castle, Isle of the Kings, Issavi, Liberty Bay City, Mintwallin, Southern Darama Desert, Thais, Thais Surroundings, Yalahar Factory Quarter, Yalahar Foreigner Quarter"
+    },
+    {
+      "id": 39,
+      "name": "Cave Rat",
+      "completed": true,
+      "kills": 250,
+      "description": "Amazon Camp, Ankrahmun Pharaoh Tombs, Ankrahmun Underground, Corym Black Market, Dark Cathedral, Dawnport e mais localidades"
+    },
+    {
+      "id": 40,
+      "name": "Rabbit",
+      "completed": true,
+      "kills": 250,
+      "description": "Carlin Surroundings, Cormaya, Dawnport, Dawnport High Hills, Deeper Drefia, Deepling Temple Complex, Dryad Gardens, Edron Castle e outras localidades"
+    },
+    {
+      "id": 41,
+      "name": "Bat",
+      "completed": true,
+      "kills": 250,
+      "description": "Ab'Dendriel Underground, Banuta, Black Knight Villa, Bounac, Carlin Surroundings, Carlin Underground, CormayaAb'Dendriel Underground, Banuta, Black Knight Villa, Bounac, Carlin Surroundings, Carlin Underground, Cormaya e outras localidades"
+    },
+    {
+      "id": 42,
+      "name": "Cat",
+      "completed": true,
+      "kills": 25,
+      "description": "Bounac, Carlin, Issavi, Kazordoon Surroundings, Rookgaard, Rookgaard Underground, Thais Surroundings, Yalahar Centre e outras localidades"
+    },
+    {
+      "id": 43,
+      "name": "Mushroom Sniffer",
+      "completed": true,
+      "kills": 25,
+      "description": "Gnomegate Truffels Grounds"
+    },
+    {
+      "id": 44,
+      "name": "Water Buffalo",
+      "completed": true,
+      "kills": 5,
+      "description": "Venore pantanos"
+    },
+    {
+      "id": 45,
+      "name": "Exotic Bat",
+      "completed": true,
+      "kills": 1000,
+      "description": "Trail to Rascacoon (Exotic Cave)"
+    },
+    {
+      "id": 46,
+      "name": "Snake",
+      "completed": true,
+      "kills": 250,
+      "description": "Ab'Dendriel, Ab'Dendriel Underground, Ankrahmun Pharaoh Tombs, Deeper Drefia, Deepling Temple Complex, Drefia e outros"
+    },
+    {
+      "id": 47,
+      "name": "Tortoise",
+      "completed": true,
+      "kills": 500,
+      "description": "Fenrock, Laguna Islands, Liberty Bay Surroundings, Port Hope Surroundings, Yalahar Arena Quarter"
+    },
+    {
+      "id": 48,
+      "name": "Thornback Tortoise",
+      "completed": true,
+      "kills": 500,
+      "description": "Laguna Islands, Meriana, Nargor"
+    },
+    {
+      "id": 49,
+      "name": "Stone Refiner",
+      "completed": true,
+      "kills": 1000,
+      "description": "Venore Corym Dungeons"
+    },
+    {
+      "id": 50,
+      "name": "Ghoul",
+      "completed": true,
+      "kills": 500,
+      "description": "Ab'Dendriel Underground, Amazon Camp, Ankrahmun Pharaoh Tombs, Beregar Mines, Dark Cathedral, Deeper Drefia e outras localidades"
+    },
+    {
+      "id": 51,
+      "name": "Skeleton",
+      "completed": true,
+      "kills": 500,
+      "description": "Ab'Dendriel Surroundings, Ab'Dendriel Underground, Ankrahmun Pharaoh Tombs, Beregar Mines, Black Knight Villa, Bounac, Dark Cathedral e outras localidades"
+    },
+    {
+      "id": 52,
+      "name": "Mummy",
+      "completed": true,
+      "kills": 500,
+      "description": "Amazon Camp, Ankrahmun Pharaoh Tombs, Daramian Minotaur Pyramid, Daramian Scarab Lairs, Dark Cathedral e outras localidades"
+    },
+    {
+      "id": 53,
+      "name": "Bonebeast",
+      "completed": true,
+      "kills": 1000,
+      "description": "Ankrahmun Pharaoh Tombs, Banuta, Beregar Mines, Caverna Exanima, Daramian Scarab Lairs, Demon Forge, Edron Forgotten Tomb e outras localidades"
+    },
+    {
+      "id": 54,
+      "name": "Undead Gladiator",
+      "completed": true,
+      "kills": 1000,
+      "description": "Black Sphinx Estate, Edron Hero Fortress, Krailos Ruins, Yalahar Arena Quarter"
+    },
+    {
+      "id": 55,
+      "name": "Bane Of Light",
+      "completed": true,
+      "kills": 5,
+      "description": "Aparece no evento The Lightbearer"
+    },
+    {
+      "id": 56,
+      "name": "Gazer Spectre",
+      "completed": true,
       "kills": 2500,
-      "description": "Um monstro comum encontrado em muitas cavernas."
+      "description": "Buried Cathedral, Haunted Nexus"
+    },
+    {
+      "id": 57,
+      "name": "Poison Spider",
+      "completed": true,
+      "kills": 250,
+      "description": "Ab'Dendriel Underground, Ankrahmun Pharaoh Tombs, Beregar Mines, Carlin Underground, Chor e outras localidades"
+    },
+    {
+      "id": 58,
+      "name": "Giant Spider",
+      "completed": true,
+      "kills": 1000,
+      "description": "Ankrahmun Pharaoh Tombs, Banuta, Beregar Mines, Caverna Exanima, Chyllfroest Lost World, Dawnport Underground Dungeons e outras localidades"
+    },
+    {
+      "id": 59,
+      "name": "Scorpion",
+      "completed": true,
+      "kills": 500,
+      "description": "Ankrahmun Pharaoh Tombs, Black Knight Villa, Central Steppe, Cyclopolis, Dark Cathedral e outras localidades"
+    },
+    {
+      "id": 60,
+      "name": "Wasp",
+      "completed": true,
+      "kills": 250,
+      "description": "Ab'Dendriel Surroundings, Ab'Dendriel Underground, Cormaya, Dawnport Underground DungeonsAb'Dendriel Surroundings, Ab'Dendriel Underground, Cormaya, Dawnport Underground Dungeons e outras localidades"
+    },
+    {
+      "id": 61,
+      "name": "Bug",
+      "completed": true,
+      "kills": 250,
+      "description": "Ab'Dendriel, Carlin Underground, Edron Goblin Den, Edron Surroundings e outras localidades"
+    },
+    {
+      "id": 62,
+      "name": "Ancient Scarab",
+      "completed": true,
+      "kills": 1000,
+      "description": "Ankrahmun Pharaoh Tombs, Beregar Mines, Daramian Mountain Scarab Lair e outras localidades"
+    },
+    {
+      "id": 63,
+      "name": "Scarab",
+      "completed": true,
+      "kills": 500,
+      "description": "Ankrahmun Pharaoh Tombs, Ashta'daramai, Beregar Mines e outras localidades"
+    },
+    {
+      "id": 64,
+      "name": "Butterfly (rosa)",
+      "completed": true,
+      "kills": 25,
+      "description": "Ab'Dendriel, Ab'Dendriel Surroundings, Carlin, Cormaya, Edron Surroundings e outras localidades"
+    },
+    {
+      "id": 65,
+      "name": "Butterfly (azul)",
+      "completed": true,
+      "kills": 25,
+      "description": "Ab'Dendriel, Carlin Surroundings, Cormaya, Feyrist Meadows, Grimvale e outras localidades"
+    },
+    {
+      "id": 66,
+      "name": "Butterfly (vermelha)",
+      "completed": true,
+      "kills": 25,
+      "description": "Banuta, Carlin Surroundings, Feyrist Meadows, Grimvale, Liberty Bay City, Liberty Bay Surroundings, Meriana e outras localidades"
+    },
+    {
+      "id": 67,
+      "name": "Tarantula",
+      "completed": true,
+      "kills": 500,
+      "description": "Corym Black Market, Dark Cathedral, Forbidden Lands of Tiquanda, Green Claw Swamp e outras localidades"
+    },
+    {
+      "id": 68,
+      "name": "Sandcrawler",
+      "completed": true,
+      "kills": 250,
+      "description": "Deep Desert, Deeper Drefia, Dragonblaze Peaks, Drefia, Kilmaresh Catacombs, Northern Darama Desert, Nykri Delta, Southern Darama Desert, Zao Steppe"
+    },
+    {
+      "id": 69,
+      "name": "Exotic Cave Spider",
+      "completed": true,
+      "kills": 1000,
+      "description": "Trail to Rascacoon"
     }
   ]
 }
