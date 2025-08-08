@@ -20,6 +20,13 @@
       "status": "not_started",
       "percentage": 0,
       "description": "Torne-se um carteiro em Venore."
+    },
+    {
+      "id": 4,
+      "name": "Teste de Quest",
+      "status": "not_started",
+      "percentage": 0,
+      "description": "Descrição da nova quest"
     }
   ],
   "achievements": [
@@ -51,4 +58,3 @@
     }
   ]
 }
-
